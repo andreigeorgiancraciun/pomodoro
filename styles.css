@@ -1,0 +1,116 @@
+body {
+    font-family: 'Anonymous Pro', monospace;
+    color: #5a5c58;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  #container {
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    box-shadow: #ff0000 0 0 8px;
+    height: 30rem;
+    width: 30rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #label {
+    font-size: 2rem;
+    margin-bottom: -10rem;
+  }
+  
+  #time {
+    height: 8rem;
+    width: 60%;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #time > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #time > div:nth-of-type(2) {
+    padding-bottom: 0.5rem;
+  }
+  
+  #min, #sec {
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  #controls {
+    margin: -7.5rem 0 -5rem 0;
+  }
+  
+  #start, #pause, #reset {
+    float: left;
+    font-size: 1.5rem;
+  }
+  
+  #pause, #reset {
+    margin-left: 2rem;
+  }
+  
+  .labels {
+    margin-bottom: -9.5rem;
+  }
+  
+  .labels div {
+    float: left;
+    font-size: 1.3rem;
+  }
+  
+  .labels div:nth-of-type(1) {
+    margin-left: 0.4rem;
+  }
+  
+  .labels div:nth-of-type(2) {
+    margin-left: 8.8rem;
+  }
+  
+  #settings {
+    height: 5rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  #setWork, #setBreak {
+    margin: 0 -4rem 0 -4rem;
+  }
+  
+  #start:hover, #pause:hover, #reset:hover, #minusWork:hover, #plusWork:hover,
+  #minusBreak:hover, #plusBreak:hover {
+    cursor: pointer;
+    color: #ff0000;
+  }
+  
+  .disabled {
+    pointer-events: none;
+  }
+  
+  .red {
+    color: #ff0000;
+  }
+  
+  #start:hover, #pause:hover, #reset:hover, #minusWork:hover, #plusWork:hover,
+  #minusBreak:hover, #plusBreak:hover, #breaker:hover, #worker:hover {
+    cursor: pointer;
+    color: #ff0000;
+  }
+  
